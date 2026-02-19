@@ -1,7 +1,7 @@
 # Interactive Registration Form
 A modern, secure, and interactive user registration system built with Django, and Bootstrap 5. This project features real-time password strength validation, server-side error handling, and a clean UI.
 
-🚀 Key Features
+### Key Features
 
 Robust Validation: Server-side checks for email formats and matching passwords.
 
@@ -11,14 +11,14 @@ Responsive Design: Styled with Bootstrap 5 for mobile and desktop compatibility.
 
 User Feedback: Toast-style success and error messages using Django's Messages framework.
 
-## Technical Stack
+### Technical Stack
 Backend: Python 3.x, Django 5.x
 
 Frontend: HTML5, Bootstrap 5
 
 Database: SQLite (Default)
 
-## Installation & Setup
+### Installation & Setup
 Follow these steps to get the development environment running:
 
 1. Clone the repository and Navigate
@@ -30,11 +30,11 @@ cd Form
 ```
 python -m venv venv
 ```
-# Activate on Windows:
+### Activate on Windows:
 ```
 venv\Scripts\activate
 ```
-# Activate on Mac/Linux:
+### Activate on Mac/Linux:
 ```
 source venv/bin/activate
 ```
@@ -53,8 +53,8 @@ python manage.py runserver
 ```
 Visit http://127.0.0.1:8000/accounts/register/ in your browser.
 
-## Project Structure
-
+### Project Structure
+```
 Form/
 ├── manage.py
 ├── forms/          # Project settings
@@ -67,8 +67,8 @@ Form/
     ├── forms.py        # Validation logic lives here
     ├── views.py        # Handles the "Interactive" part
     └── urls.py
-
-📝 License
+```
+### License
 This project is open-source and available under the MIT License.
 
 
